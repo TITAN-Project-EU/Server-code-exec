@@ -1,7 +1,7 @@
 # Server-Code-execc
 
 ## Dockerfile
-```
+``` javascript
 # Use the official CUDA 11.5 image with Ubuntu 20.04 as a base
 FROM nvidia/cuda:11.5.2-runtime-ubuntu20.04
 
@@ -47,6 +47,38 @@ RUN pip3 install \
     optuna \
     captum
 
-```
+# Set the working directory
+WORKDIR /opt
 
+```
+## Kubernetes YAML file
+``` javascript
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  containers:
+  - name: container1
+    image: doc:local
+    resources:
+      limits:
+        nvidia.com/gpu: 1
+    volumeMounts:
+    - name: user-scripts
+      mountPath: /app/scripts
+    env:
+    - name: NVIDIA_VISIBLE_DEVICES
+      value: all
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    command: ["sh", "-c", "echo Your pod is running && sleep infinity"]
+  volumes:
+  - name: user-scripts
+    hostPath:
+      path: /mnt/files/shared
+
+```
 
