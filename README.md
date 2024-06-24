@@ -1,6 +1,6 @@
 # Server-Code-execc
 
-![text](https://github.com/roumpakis/Server-Code-exec/tree/master/images/pipeline.jpg)
+!([https://github.com/roumpakis/Server-Code-exec/tree/master/images/pipeline.jpg](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg))
 
 ## Dockerfile
 ``` javascript
