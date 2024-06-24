@@ -1,5 +1,7 @@
 # Server-Code-execc
 
+![text](https://github.com/roumpakis/Server-Code-exec/tree/master/images/pipeline.jpg)
+
 ## Dockerfile
 ``` javascript
 # Use the official CUDA 11.5 image with Ubuntu 20.04 as a base
