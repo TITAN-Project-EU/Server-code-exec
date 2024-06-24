@@ -52,6 +52,11 @@ RUN pip3 install \
 WORKDIR /opt
 
 ```
+
+***Parameters to change***  <br/>
+```# Install the required Python libraries:``` Install the libraires that you want your docker pod to include.<br/>
+
+
 ## Kubernetes YAML file
 ``` javascript
 
@@ -82,4 +87,7 @@ spec:
       path: /mnt/files/shared
 
 ```
-
+***Parameters to change***  <br/>
+```#  image:``` Fill with the Docker image.<br/>
+```#  mountPath:``` Working dir for kubernetes node.<br/>
+```# path:``` Path on server will be visible on kubernetes node at mountPath.<br/>
