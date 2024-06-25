@@ -1,4 +1,4 @@
-![image](https://github.com/roumpakis/Server-Code-exec/assets/60132957/755028b4-0288-4545-b5a2-137049d11455)# Server-Code-execc
+# Server-Code-execc
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
 
 
