@@ -129,11 +129,9 @@ cd /app/scripts
 ls
 python transparency.py
 ```
+![running-code](https://github.com/roumpakis/Server-Code-exec/blob/master/images/code-exec.JPG)
 
-![running-code](https://github.com/roumpakis/Server-Code-exec/blob/master/images/running-pods.JPG)
-
-
-
+---
 
 
 
