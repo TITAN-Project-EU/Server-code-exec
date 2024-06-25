@@ -119,7 +119,7 @@ kubectl get pods
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/running-pods.JPG)
 
 ---
-With ```#``` the commands will run directly on ```my-pod``` kubernetes node. <br\>
+With ```#``` the commands will run directly on ```my-pod``` kubernetes node. <br/>
 In ```manifest.yaml``` we have mount ```path``` with ```hostPath``` and for these example means that 
 ```/mnt/files/shared``` path in server is now visible at ```/app/scripts``` path in kubernetes node.
 
