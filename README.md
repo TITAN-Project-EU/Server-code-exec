@@ -1,7 +1,8 @@
-# Server-Code-execc
+![image](https://github.com/roumpakis/Server-Code-exec/assets/60132957/755028b4-0288-4545-b5a2-137049d11455)# Server-Code-execc
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
 
-### Dockerfile###
+
+### Dockerfile
 ``` javascript
 # Use the official CUDA 11.5 image with Ubuntu 20.04 as a base
 FROM nvidia/cuda:11.5.2-runtime-ubuntu20.04
@@ -56,8 +57,10 @@ WORKDIR /opt
 ***Parameters to change***  <br/>
 ```Install the required Python libraries:``` Install the libraires that you want your docker pod to include.<br/>
 
+```console
+  docker build -t pod-name:local .
 ---
-### Kubernetes YAML file###
+### Kubernetes YAML file
 ``` javascript
 
 apiVersion: v1
