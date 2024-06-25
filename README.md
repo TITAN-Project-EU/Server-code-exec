@@ -104,5 +104,8 @@ spec:
    kubectl apply -f manifest.yaml
 
 ```
-
-
+***Check kubernetes nodes***  <br/>
+```console
+kubectl get pods
+```
+![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/running-pods.JPG)
