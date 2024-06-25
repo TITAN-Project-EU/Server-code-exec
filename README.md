@@ -59,6 +59,9 @@ WORKDIR /opt
 
 ```console
   docker build -t pod-name:local .
+
+```
+
 ---
 ### Kubernetes YAML file
 ``` javascript
