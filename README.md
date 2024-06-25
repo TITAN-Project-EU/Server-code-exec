@@ -57,6 +57,7 @@ WORKDIR /opt
 ***Parameters to change***  <br/>
 ```Install the required Python libraries:``` Install the libraires that you want your docker pod to include.<br/>
 
+***Building docker image in local repository***  <br/>
 ```console
   docker build -t pod-name:local .
 
