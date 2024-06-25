@@ -116,3 +116,11 @@ spec:
 kubectl get pods
 ```
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/running-pods.JPG)
+
+---
+### Running on Kubernetes node
+After the creation of kubernetes node we can open the a interactive command line with that node with:
+```console
+ kubectl exec -it my-pod -- /bin/sh
+```
+where ``` my-pod``` is the kubernetes node name, defined in ```manifest.yaml```.
