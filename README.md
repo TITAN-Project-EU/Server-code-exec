@@ -98,3 +98,11 @@ spec:
 ```image:``` Fill with the Docker image.<br/>
 ```mountPath:``` Working dir for kubernetes node.<br/>
 ```path:``` Path on server will be visible on kubernetes node at mountPath.<br/>
+
+***Create the Kubernetes node***  <br/>
+```console
+   kubectl apply -f manifest.yaml
+
+```
+
+
