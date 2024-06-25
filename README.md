@@ -123,4 +123,14 @@ After the creation of kubernetes node we can open the a interactive command line
 ```console
  kubectl exec -it my-pod -- /bin/sh
 ```
-where ``` my-pod``` is the kubernetes node name, defined in ```manifest.yaml```.
+where ``` my-pod``` is the kubernetes node name, defined in ```manifest.yaml```
+
+![k8s-node](https://github.com/roumpakis/Server-Code-exec/blob/master/images/k8s-node.JPG)
+--- 
+
+
+
+
+
+
+
