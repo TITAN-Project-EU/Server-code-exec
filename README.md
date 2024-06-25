@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Dockerfile](#dockerfile)
 - [Kubernetes YAML File](#kubernetes-yaml-file)
-- [ Run code with kubernetes node](#run-code-with-kubernetes-node)
+- [Run code with kubernetes node](#run-code-with-kubernetes-node)
 
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
 
@@ -14,7 +14,7 @@ ssh username@hostname
 ```
 Or with putty 
 
-![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/Capture.jpg)
+![putty](https://github.com/roumpakis/Server-Code-exec/blob/master/images/Capture.JPG)
 
 ### Dockerfile
 ``` javascript
