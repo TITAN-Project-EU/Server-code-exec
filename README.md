@@ -2,10 +2,8 @@
 # Server-Code-execc
 ## Table of Contents
 - [Dockerfile](#dockerfile)
-- [Building Docker Image](#building-docker-image)
 - [Kubernetes YAML File](#kubernetes-yaml-file)
-- [Create the Kubernetes Node](#create-the-kubernetes-node)
-- [Check Kubernetes Nodes](#check-kubernetes-nodes)
+- [Run Code on K8S Node](#Run-code-with-kubernetes-node)
 
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
 
@@ -119,11 +117,12 @@ kubectl get pods
 ![running-pods](https://github.com/roumpakis/Server-Code-exec/blob/master/images/running-pods.JPG)
 
 ---
+### Run code with kubernetes node  <br/>
 With ```#``` the commands will run directly on ```my-pod``` kubernetes node. <br/>
 In ```manifest.yaml``` we have mount ```path``` with ```hostPath``` and for these example means that 
 ```/mnt/files/shared``` path in server is now visible at ```/app/scripts``` path in kubernetes node.
 
-***Run code with kubernetes node***  <br/>
+
 ```console
 cd /app/scripts
 ls
