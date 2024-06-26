@@ -1,11 +1,16 @@
  
 # Server-Code-execc
 ## Table of Contents
-- [ Connect on the Server](#connect-on-the-server)
+- [Connect on the Server](#connect-on-the-server)
 - [Dockerfile](#dockerfile)
+- [Dockerfile with Specific Libs Versions](#dockerfile-with-specific-libs-versions)
+- [Parameters to Change](#parameters-to-change)
+- [Building Docker Image in Local Repository](#building-docker-image-in-local-repository)
 - [Kubernetes YAML File](#kubernetes-yaml-file)
-- [Run code with kubernetes node](#run-code-with-kubernetes-node)
-- [Resources Managment](#resources-managment)
+- [Create the Kubernetes Node](#create-the-kubernetes-node)
+- [Check Kubernetes Nodes](#check-kubernetes-nodes)
+- [Run Code with Kubernetes Node](#run-code-with-kubernetes-node)
+- [Resources Management](#resources-management)
 
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
 
@@ -17,7 +22,7 @@
 ``` console
 ssh username@hostname
 ```
-Or with putty 
+Or with putty <br/>
 ![putty](https://github.com/roumpakis/Server-Code-exec/blob/master/images/Capture.JPG)
 
 
