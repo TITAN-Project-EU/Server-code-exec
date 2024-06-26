@@ -1,4 +1,4 @@
-
+ 
 # Server-Code-execc
 ## Table of Contents
 - [ Connect on the Server](#connect-on-the-server)
@@ -74,6 +74,58 @@ RUN pip3 install \
 
 # Set the working directory
 WORKDIR /opt
+
+```
+***Dockerfile with specific libs versions***  <br/>
+``` java
+# Use the official CUDA 11.5 image with Ubuntu 20.04 as a base
+FROM nvidia/cuda:11.5.2-runtime-ubuntu20.04
+
+# Set the environment variable for non-interactive apt-get
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install required dependencies
+RUN apt-get update && apt-get install -y \
+    python3-pip \
+    python3-dev \
+    build-essential \
+    git \
+    wget \
+    curl \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create a symbolic link for python3
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+# Upgrade pip
+RUN pip3 install --upgrade pip
+
+# Install the required Python libraries (excluding built-in modules)
+RUN pip3 install \
+    emcee==3.0.2 \
+    getdist==1.1.4 \
+    joblib==1.1.0 \
+    chainconsumer==0.33.2 \
+    astropy==4.3.1 \
+    scikit-learn==0.24.2 \
+    tqdm==4.62.3 \
+    zenodo-get==0.1.1 \
+    jax==0.2.25 \
+    numpyro==0.8.0 \
+    scipy==1.7.1 \
+    lightning==2.0.4 \
+    corner==2.2.1 \
+    nflows==0.14 \
+    sbi==0.17.0 \
+    sbibm==0.4.0 \
+    spectral-cube==0.5.0 \
+    optuna==2.10.0 \
+    captum==0.4.1
+
+# Set the working directory
+WORKDIR /opt
+
 
 ```
 
