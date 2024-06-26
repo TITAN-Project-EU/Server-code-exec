@@ -201,7 +201,7 @@ python transparency.py
 
 ---
 
-### Resources Managment  
+### Resources Managment
 
 GPU time-slicing enables workloads that are scheduled on oversubscribed GPUs to interleave with one another. 
 There is no memory or fault-isolation between replicas. Internally, GPU time-slicing is used to multiplex workloads from replicas of the same underlying GPU.
