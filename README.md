@@ -3,12 +3,7 @@
 ## Table of Contents
 - [Connect on the Server](#connect-on-the-server)
 - [Dockerfile](#dockerfile)
-- [Dockerfile with Specific Libs Versions](#dockerfile-with-specific-libs-versions)
-- [Parameters to Change](#parameters-to-change)
-- [Building Docker Image in Local Repository](#building-docker-image-in-local-repository)
 - [Kubernetes YAML File](#kubernetes-yaml-file)
-- [Create the Kubernetes Node](#create-the-kubernetes-node)
-- [Check Kubernetes Nodes](#check-kubernetes-nodes)
 - [Run Code with Kubernetes Node](#run-code-with-kubernetes-node)
 - [Resources Management](#resources-management)
 
@@ -191,7 +186,7 @@ kubectl get pods
 ![running-pods](https://github.com/roumpakis/Server-Code-exec/blob/master/images/running-pods.JPG)
 
 ---
-### Run code with kubernetes node  <br/>
+### Run code with kubernetes node  
 With ```#``` the commands will run directly on ```my-pod``` kubernetes node. <br/>
 In ```manifest.yaml``` we have mount ```path``` with ```hostPath``` and for these example means that 
 ```/mnt/files/shared``` path in server is now visible at ```/app/scripts``` path in kubernetes node.
@@ -206,7 +201,7 @@ python transparency.py
 
 ---
 
-### Resources Managment  <br/>
+### Resources Managment  
 
 GPU time-slicing enables workloads that are scheduled on oversubscribed GPUs to interleave with one another. 
 There is no memory or fault-isolation between replicas. Internally, GPU time-slicing is used to multiplex workloads from replicas of the same underlying GPU.
