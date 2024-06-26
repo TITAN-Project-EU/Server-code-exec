@@ -191,7 +191,7 @@ kubectl get pods
 ---
 ### Run code with kubernetes node  
 With ```#``` the commands will run directly on ```my-pod``` kubernetes node. <br/>
-In ```manifest.yaml``` we have mount ```path``` with ```hostPath``` and for these example means that 
+In ```manifest.yaml``` we have mount ```path``` with ```hostPath``` and for this example it means that 
 ```/mnt/files/shared``` path in server is now visible at ```/app/scripts``` path in kubernetes node.
 
 
