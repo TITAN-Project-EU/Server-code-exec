@@ -1,13 +1,14 @@
 
 # Server-Code-execc
 ## Table of Contents
+- [ Connect on the Server](#connect-on-the-server)
 - [Dockerfile](#dockerfile)
 - [Kubernetes YAML File](#kubernetes-yaml-file)
 - [Run code with kubernetes node](#run-code-with-kubernetes-node)
 
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
 
-### Connect on Server
+### Connect on the Server
 
 ``` console
 ssh username@hostname
