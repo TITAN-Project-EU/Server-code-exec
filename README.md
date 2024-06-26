@@ -5,19 +5,22 @@
 - [Dockerfile](#dockerfile)
 - [Kubernetes YAML File](#kubernetes-yaml-file)
 - [Run code with kubernetes node](#run-code-with-kubernetes-node)
-
+- [Resources Managment](#resources-managment)
 ### Connect on the Server
 
 ``` console
 ssh username@hostname
 ```
 Or with putty 
+![putty](https://github.com/roumpakis/Server-Code-exec/blob/master/images/Capture.JPG)
 
+
+---
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
 
 
 
-![putty](https://github.com/roumpakis/Server-Code-exec/blob/master/images/Capture.JPG)
+
 
 ### Dockerfile
 ``` javascript
