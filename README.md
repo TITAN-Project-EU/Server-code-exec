@@ -1,7 +1,7 @@
  
 # Server-Code-execc
 ## Table of Contents
-- [Connect on the Server](#connect-on-the-server)
+- [Connect to the Server](#connect-to-the-server)
 - [Dockerfile](#dockerfile)
 - [Kubernetes YAML File](#kubernetes-yaml-file)
 - [Run Code with Kubernetes Node](#run-code-with-kubernetes-node)
@@ -12,14 +12,17 @@
 ---
 
 
-### Connect on the Server
+### Connect to the Server
 
 ``` console
 ssh username@hostname
 ```
-Or with putty <br/>
+Or with putty <br/><br/>
 ![putty](https://github.com/roumpakis/Server-Code-exec/blob/master/images/Capture.JPG)
-
+ 
+ <br/>
+ 
+ All files described below are available at your home folder ```\home\username\k8s-example``` when conected to the server.
 
 ---
 
