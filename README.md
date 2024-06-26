@@ -5,7 +5,7 @@
 - [Dockerfile](#dockerfile)
 - [Kubernetes YAML File](#kubernetes-yaml-file)
 - [Run Code with Kubernetes Node](#run-code-with-kubernetes-node)
-- [Resources Management](#resources-management)
+- [Resources Managment](#resources-managment)
 
 ![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
 
@@ -202,7 +202,6 @@ python transparency.py
 ---
 
 ### Resources Managment
-
 GPU time-slicing enables workloads that are scheduled on oversubscribed GPUs to interleave with one another. 
 There is no memory or fault-isolation between replicas. Internally, GPU time-slicing is used to multiplex workloads from replicas of the same underlying GPU.
 
