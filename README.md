@@ -6,6 +6,12 @@
 - [Kubernetes YAML File](#kubernetes-yaml-file)
 - [Run code with kubernetes node](#run-code-with-kubernetes-node)
 - [Resources Managment](#resources-managment)
+
+![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
+
+---
+
+
 ### Connect on the Server
 
 ``` console
@@ -16,9 +22,6 @@ Or with putty
 
 
 ---
-![Pipeline](https://github.com/roumpakis/Server-Code-exec/blob/master/images/pipeline.jpg)
-
-
 
 
 
