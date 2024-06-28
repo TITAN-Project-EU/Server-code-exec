@@ -187,7 +187,9 @@ spec:
 kubectl get pods
 ```
 ![running-pods](https://github.com/roumpakis/Server-Code-exec/blob/master/images/running-pods.JPG)
-
+```console
+kubectl exec my-pod -it -- /bin/sh
+```
 ---
 ### Run code with kubernetes node  
 With ```#``` the commands will run directly on ```my-pod``` kubernetes node. <br/>
