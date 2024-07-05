@@ -145,17 +145,16 @@ WORKDIR /opt
 ### Kubernetes YAML file
 ``` javascript
 
+
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-pod
+  name: node-name
 spec:
   containers:
   - name: container1
-    image: doc:local
+    image: pod-name:local
     resources:
-      limits:
-        nvidia.com/gpu: 1
     volumeMounts:
     - name: user-scripts
       mountPath: /app/scripts
@@ -170,6 +169,8 @@ spec:
   - name: user-scripts
     hostPath:
       path: /mnt/files/shared
+
+
 
 ```
 ***Parameters to change***  <br/>
